@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url('font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 html, body, div, span, applet, object,
@@ -3272,6 +3272,9 @@ input, select, textarea {
 						background-color: #ffffff;
 						box-shadow: none;
 					}
+		#logo-nav {
+			display: none;
+		}
 
 		#nav.alt {
 			position: fixed;
@@ -3282,6 +3285,13 @@ input, select, textarea {
 			border-top-right-radius: 0;
 			z-index: 10000;
 		}
+
+		/* Filhote? */
+
+			#nav.alt #logo-nav {
+				display: flex;
+				align-self: flex-start;
+			}
 
 			#nav.alt ul li {
 				margin: 0 0.175em;
