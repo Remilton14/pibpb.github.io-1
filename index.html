@@ -8,6 +8,8 @@
 		<meta name="keywords" content="Jesus Cristo, Deus, Espírito Santo, Salvação, Amor, Amizade, Misericórdia, Paz, Alegria, Igreja, Vida eterna, Ajuda, Caminho"/>
 		<meta name="Description" content="A Primeira Igreja Batista Pioneira em Blumenau tem o objetivo de acolher as pessoas em amor, relacionando e servindo."/>
 		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
 		<link rel="icon" type="image/x-icon" href="favicon.ico"/>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
@@ -28,17 +30,17 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<div>
+			<div id="social">
 					<ul class="icons align-right">
 						<li><a href="https://www.youtube.com/pibpb" target="_blank" class="icon alt fa-youtube"><span class="label">Youtube</span></a></li>
 						<li><a href="https://www.facebook.com/pibpb" target="_blank" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.instagram.com/pibpioneiraemblumenau/" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://api.whatsapp.com/send?phone=5547988690362&text=Olá" target="_blank" class="icon alt fa-whatsapp"><span class="label">WhatsApp</span></a> </li>
 					</ul>
-			    </div>
+			</div>
 
+		<!-- Wrapper -->
+			<div id="wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="PIBPB" /></span>
@@ -46,8 +48,8 @@
 
 				<!-- Nav -->
 					<nav id="nav">
+						<a href="#social"><img id="logo-nav" src="images/logo.svg" height="50em" alt="PIBPB"/></a>
 						<ul>
-							<li class="align-left"><img id="logo-nav" src="images/logo.svg" height="60" width="90"/></li>
 							<li><a href="#celulas">Células</a></li>
 							<li><a href="#classes">Classes</a></li>
 							<li><a href="#projetos">Projetos</a></li>
@@ -58,10 +60,19 @@
 				<!-- Main -->
 					<div id="main">
 
-						<section class="main">
+						<section class="main banners">
 							<div class="box alt">
 								<div class="row gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/banner-1.svg" alt="" /></span></div>
+									<div class="col-12">
+										<div class="owl-carousel owl-theme">
+											<a class="item" href="eventos.html">
+												<img src="images/banner-1.svg" />
+											</a>
+											<a class="item" href="celebracao.html">
+												<img src="images/celebracao.jpg" />
+											</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</section>
@@ -72,15 +83,56 @@
 									<header class="major">
 										<h2>Células</h2>
 									</header>
-									<p>São encontros semanais em casas com o objetivo de integrar, cuidar e servir pessoas</p>
+									<p>São encontros semanais em casas com o objetivo de integrar, cuidar e servir pessoas.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Saiba mais</a></li>
+										<li><a href="celulas.html" class="button">Saiba mais</a></li>
 									</ul>
 								</div>
-								<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								<span class="image"><img src="images/celulas.jpg" alt="Células" /></span>
 							</div>
 						</section>
-
+						<section id="classes" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Classes</h2>
+									</header>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at metus dignissim elit elementum scelerisque. Duis sed finibus libero, sed venenatis nisl. Donec sed justo id nisl feugiat efficitur.</p>
+									<ul class="actions">
+										<li><a href="classes.html" class="button">Saiba mais</a></li>
+									</ul>
+								</div>
+								<span class="image"><img src="images/classes.jpg" alt="Classes" /></span>
+							</div>
+						</section>
+						<section id="projetos" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Projetos</h2>
+									</header>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at metus dignissim elit elementum scelerisque. Duis sed finibus libero, sed venenatis nisl. Donec sed justo id nisl feugiat efficitur.</p>
+									<ul class="actions">
+										<li><a href="projetos.html" class="button">Saiba mais</a></li>
+									</ul>
+								</div>
+								<span class="image"><img src="images/projetos.jpg" alt="Projetos" /></span>
+							</div>
+						</section>
+						<section id="ministerios" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Ministérios</h2>
+									</header>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at metus dignissim elit elementum scelerisque. Duis sed finibus libero, sed venenatis nisl. Donec sed justo id nisl feugiat efficitur.</p>
+									<ul class="actions">
+										<li><a href="ministerios.html" class="button">Saiba mais</a></li>
+									</ul>
+								</div>
+								<span class="image"><img src="images/ministerios.jpg" alt="Ministérios" /></span>
+							</div>
+						</section>
 					</div>
 
 				<!-- Footer -->
@@ -116,6 +168,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/owl.carousel.min.js"></script>
 
+			<script>
+			$(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+				autoplay:true,
+				autoplayTimeout:5000,
+				animateOut: 'fadeOut',
+				items: 1,
+				autoHeight:true,
+				dots:false,
+              })
+            })
+			</script>
 	</body>
 </html>
