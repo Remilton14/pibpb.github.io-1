@@ -1,5 +1,5 @@
 @import url('font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -114,8 +114,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'EB Garamond', serif;
-		font-size: 18pt;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -131,7 +131,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -139,7 +139,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -2253,11 +2253,11 @@ input, select, textarea {
 
 			.icon.alt:before {
 				display: block;
-				font-size: 1.25em;
-				width: 2em;
-				height: 2em;
+				font-size: 1.3em;
+				width: 1.7em;
+				height: 0.1em;
 				text-align: center;
-				line-height: 2em;
+				line-height: 1.7em;
 			}
 
 		.icon.style1 {
@@ -2299,8 +2299,8 @@ input, select, textarea {
 		@media screen and (max-width: 768px) {
 
 			.icon.major {
-				margin: 0 0 1.5em 0;
-				padding: 0.35em;
+				margin: 0 0 0.5em 0;
+				padding: 0.1em;
 			}
 
 				.icon.major:before {
@@ -2972,9 +2972,8 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
 			border-radius: 100%;
-			border: solid 1px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 		}
 
 			.spotlight .image img {
@@ -3027,24 +3026,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 768px) {
 
-			.spotlight .image {
-				padding: 0.35em;
+			.spotlight .image img {
+				width: 12em;
 			}
 
-				.spotlight .image img {
-					width: 12em;
-				}
-
 		}
-
-	.spotlight .image {
-		border-color: rgba(255, 255, 255, 0.35);
-	}
 
 /* Header */
 
 	#header {
-		padding: 2em 2em 1em 2em ;
+		padding: 2em 2em 2em 2em ;
 		text-align: center;
 	}
 
@@ -3087,13 +3078,13 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 3em 0 4em 0;
+				margin: 2.5em 0 2.5em 0;
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 80%;
+					max-width: 70%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3103,7 +3094,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 1em 0.1em 0 ;
 				}
 
 		}
@@ -3115,7 +3106,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 1em 0.1em 0 ;
 				}
 
 		}
@@ -3136,7 +3127,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 1em 0.1em 0 ;
 				}
 
 					#header.alt h1 {
@@ -3152,7 +3143,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 1em 0.1em 0 ;
 				}
 
 		}
@@ -3164,7 +3155,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 0.5em 1em ;
+					padding: 0 1em 0.1em 0 ;
 				}
 
 		}
@@ -3183,20 +3174,16 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #202020;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
 		border-radius: 0;
 		cursor: default;
 		text-align: center;
+		font-weight: bold;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3204,7 +3191,7 @@ input, select, textarea {
 		}
 
 		#nav a:hover {
-			color: #202020;
+			color: #dddddd;
 		}
 
 		#nav strong, #nav b {
@@ -3229,7 +3216,7 @@ input, select, textarea {
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			padding-top: 3.25em;
 		}
 
 		#nav ul {
@@ -3260,16 +3247,26 @@ input, select, textarea {
 					padding: 0 1.25em;
 					border: 0;
 					border-radius: 8px;
-					box-shadow: inset 0 0 0 1px transparent;
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						-moz-appearance: none;
+						-webkit-appearance: none;
+						-ms-appearance: none;
+						appearance: none;
+						-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+						-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+						-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+						transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+						background-color: rgba(10, 124, 190, 0.87);
+						box-shadow: none;
+						color: #ffffff !important;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: rgba(10, 124, 190, 0.87);
 						box-shadow: none;
+						color: #ffffff !important;
 					}
 		#logo-nav {
 			display: none;
@@ -3279,9 +3276,9 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.7em 0.7em;
-			background-color: rgba(247, 247, 247, 0.95);
 			border-radius: 0;
 			z-index: 10000;
+			background-color: rgba(255, 255, 255, 0.90)
 		}
 
 		/* Filhote? */
@@ -3321,7 +3318,7 @@ input, select, textarea {
 				}
 
 				.banners {
-					margin-top: 3em;
+					margin-top: 4em;
 				}
 		}
 
@@ -3329,24 +3326,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #202020;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main blockquote {
@@ -3365,32 +3362,6 @@ input, select, textarea {
 		#main .box {
 			border-color: #dddddd;
 		}
-
-		#main input[type="submit"],
-		#main input[type="reset"],
-		#main input[type="button"],
-		#main button,
-		#main .button {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
-		}
-
-			#main input[type="submit"]:hover,
-			#main input[type="reset"]:hover,
-			#main input[type="button"]:hover,
-			#main button:hover,
-			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
-			}
-
-			#main input[type="submit"]:active,
-			#main input[type="reset"]:active,
-			#main input[type="button"]:active,
-			#main button:active,
-			#main .button:active {
-				background-color: rgba(222, 222, 222, 0.5);
-			}
 
 			#main input[type="submit"].icon:before,
 			#main input[type="reset"].icon:before,
