@@ -2218,6 +2218,7 @@ input, select, textarea {
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
+			font-size: 1.2em;
 			text-transform: none !important;
 		}
 
@@ -2253,11 +2254,11 @@ input, select, textarea {
 
 			.icon.alt:before {
 				display: block;
-				font-size: 1.3em;
-				width: 1.7em;
+				font-size: 1.2em;
+				width: 1.6em;
 				height: 0.1em;
 				text-align: center;
-				line-height: 1.7em;
+				line-height: 1.6em;
 			}
 
 		.icon.style1 {
@@ -2430,7 +2431,7 @@ input, select, textarea {
 		dl dt {
 			display: block;
 			font-weight: 400;
-			margin: 0 0 1em 0;
+			margin: 0 0 0 0;
 		}
 
 		dl dd {
@@ -2439,14 +2440,14 @@ input, select, textarea {
 
 		dl.alt dt {
 			display: block;
-			width: 3em;
+			width: 2em;
 			margin: 0;
 			clear: left;
 			float: left;
 		}
 
 		dl.alt dd {
-			margin: 0 0 0.85em 5.5em;
+			margin: 0 0 0.85em 2.5em;
 		}
 
 		dl.alt:after {
