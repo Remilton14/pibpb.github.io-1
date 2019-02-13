@@ -3351,10 +3351,6 @@ table.alt tbody tr td {
     color: #202020;
   }
 
-  #main a:hover {
-    color: #202020;
-  }
-
   #main strong, #main b {
     color: #202020;
   }
@@ -3423,7 +3419,7 @@ table.alt tbody tr td {
       }
 
   #main label {
-    color: #636363;
+    color: #202020;
   }
 
   #main input[type="text"],
@@ -3449,13 +3445,13 @@ table.alt tbody tr td {
   }
 
     #main select option {
-      color: #636363;
+      color: #202020;
       background: #ffffff;
     }
 
   #main input[type="checkbox"] + label,
   #main input[type="radio"] + label {
-    color: #636363;
+    color: #202020;
   }
 
     #main input[type="checkbox"] + label:before,
@@ -3466,8 +3462,8 @@ table.alt tbody tr td {
 
   #main input[type="checkbox"]:checked + label:before,
   #main input[type="radio"]:checked + label:before {
-    background-color: #636363;
-    border-color: #636363;
+    background-color: #202020;
+    border-color: #202020;
     color: #ffffff;
   }
 
@@ -3507,7 +3503,7 @@ table.alt tbody tr td {
 
   #main .icon.alt {
     border-color: #dddddd;
-    color: #636363;
+    color: #202020;
   }
 
     #main .icon.alt:hover {
@@ -3523,7 +3519,7 @@ table.alt tbody tr td {
   }
 
   #main dl dt {
-    color: #636363;
+    color: #202020;
   }
 
   #main header.major h2:after {
@@ -3543,7 +3539,7 @@ table.alt tbody tr td {
     }
 
   #main table th {
-    color: #636363;
+    color: #202020;
   }
 
   #main table thead {
