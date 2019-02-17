@@ -244,10 +244,11 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px;
+  border-right: solid 2px;
   font-style: italic;
   margin: 0 0 2em 0;
-  padding: 0.5em 0 0.5em 2em;
+  padding: 0.5em 1em 0.5em 0;
+  text-align: right;
 }
 
 code {
@@ -2390,7 +2391,14 @@ input[type="radio"]:focus + label:before {
   }
 
     .image.fit img {
-      width: 100%;
+      width: 50%;
+      margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .image.fit img {
+        width: 80%;
+      }
     }
 
   .image.main {
@@ -2803,9 +2811,9 @@ table.alt tbody tr td {
 }
 
   .features li {
-    width: calc(33.3333333333% - 2em);
+    width: calc(50% - 2em);
     margin-left: 2em;
-    margin-top: 3em;
+    margin-top: 2em;
     padding: 0;
   }
 
@@ -3360,7 +3368,7 @@ table.alt tbody tr td {
   }
 
   #main blockquote {
-    border-left-color: #dddddd;
+    border-right-color: #dddddd;
   }
 
   #main code {
@@ -3816,5 +3824,12 @@ table.alt tbody tr td {
   }
 
   .title {
-    padding-top: 1.2em;
+    padding-top: 1.5em;
+  }
+
+  @media screen and (max-width: 980px) {
+    .title img {
+      padding-top: 2em;
+    }
+
   }
