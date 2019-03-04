@@ -3825,6 +3825,7 @@ table.alt tbody tr td {
 
   .title {
     padding-top: 1.5em;
+    padding-bottom: 1em;
   }
 
   @media screen and (max-width: 980px) {
@@ -3832,4 +3833,8 @@ table.alt tbody tr td {
       padding-top: 2em;
     }
 
+  }
+
+  #pag {
+    text-align: center;
   }
