@@ -3838,3 +3838,62 @@ table.alt tbody tr td {
   #pag {
     text-align: center;
   }
+
+  /* "label" já foi usado antes :P */
+  .etiqueta {
+    color: white;
+    padding: 0em 0.2em;
+    border-radius: 0.2em;
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+  
+  .success {background-color: #4caf50;}
+  .info {background-color: #0a7bbe;}
+  .warning {background-color: #ff9800;}
+  .danger {background-color: #f44336;}
+  .meninas {background-color: #f436b5;}
+
+  .quadro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em;
+  }
+
+  .celula {
+    min-width: calc(50% - 2em);
+    max-width: 100%;
+    padding: 2em 2em 2em 2em;
+    margin: 1em 1em 1em 1em;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4em;
+  }
+
+  @media screen and (max-width: 980px) {
+    .quadro {
+      padding: 0;
+    }
+    .celula {
+      min-width: calc(100% - 1em);
+      padding: 1em 1em 1em 1em;
+      margin: 0 0.5em 0.7em 0.5em;
+      border: none;
+    }
+  }
+
+  .celula p {
+    margin-bottom: 0em;
+  }
+
+  .celula img {
+    width: 7.5em;
+  }
+
+  .col {
+    display: flex;
+  }
+
+  .col-text {
+    padding: 0em 1em 0em 0em;
+    width: 90%;
+  }
