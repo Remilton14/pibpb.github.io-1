@@ -30,6 +30,11 @@ body {
 ol, ul {
 	list-style: none;
 }
+@media (max-width:600px){.lista-pregacoes{margin-top: 20px} .lista-pregacoes h4{text-align: center;} .lista-pregacoes h4{margin-top: -30px} .br{display: block}}
+@media (min-width: 1200px) {.lista-pregacoes h4{margin-top: -60px} .br{display: none;}}
+.playlist-pregacoes{ list-style: none; /*color: rgb(82, 82, 82);*/color: rgba(0, 0, 0, 0.3);font-size: 17px;margin: 0 0 14px 0}
+.playlist-pregacoes a{color: rgb(79, 79, 79);}
+.playlist-pregacoes::before{content: '-';margin-right: 10px;}
 
 blockquote, q {
 	quotes: none;
@@ -111,6 +116,15 @@ body {
 
 body {
   color: #202020;
+}
+.pregacao-download{
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.bg-audio{
+  background-color: #f1f3f4;
+  border-radius: 15px;
 }
 
 body, input, select, textarea {
@@ -3745,7 +3759,7 @@ table.alt tbody tr td {
   width: 64em;
   max-width: calc(100% - 4em);
   margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);*/
   border-radius: 0.5em;
 }
 
